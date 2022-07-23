@@ -86,7 +86,7 @@ export default function (hljs) {
   // But it is harmless to give them nicer syntax highlighting. Eventually, as
   // the language settles, we can explore specifically highlighting operators
   // that aren't valid as errors.
-  const PUNCTUATION = [/->/, /\./];
+  const PUNCTUATION = [/->/, /\./, /:/];
   const OPERATORS = [
     />>=/,
     /<=>/,
